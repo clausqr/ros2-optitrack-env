@@ -27,7 +27,7 @@ Set up from [ros2-vscode-container-dev](https://github.com/clausqr/ros2-vscode-d
    ./rr run
    ```
 
-4. ** Setup** everything in the container:
+4. **Setup** everything in the container:
    
    ```bash
    cd /ros2_ws
