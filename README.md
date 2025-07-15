@@ -3,7 +3,7 @@
 
 This repository contains the setup and configuration files for a ROS2 environment that interfaces with Optitrack motion capture systems. The environment is designed to facilitate the development and testing of applications that require real-time motion capture data.
 
-Setup from `git@github.com:clausqr/ros2-vscode-container-dev.git` template.
+Setup from [ros2-vscode-container-dev](https://github.com/clausqr/ros2-vscode-dev-containers) template.
 
 
 ## Setup Instructions
@@ -15,7 +15,7 @@ Setup from `git@github.com:clausqr/ros2-vscode-container-dev.git` template.
    cd ros2-optitrack-env
    ```
 
-2. **Build** image as per `git@github.com:clausqr/ros2-vscode-container-dev.git` template instructions:
+2. **Build** image as per [ros2-vscode-container-dev](https://github.com/clausqr/ros2-vscode-dev-containers) template instructions:
    
    ```bash
    ./rr build
