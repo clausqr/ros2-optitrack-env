@@ -19,6 +19,10 @@ rosdep install --from-paths src --ignore-src -r -y
 cd /ros2_ws/src
 vcs import < mocap4ros2_optitrack/dependency_repos.repos
 
+cd /ros2_ws
+touch src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml
+echo src/mocap4ros2_optitrack/mocap4r2_optitrack_driver/config/mocap4r2_optitrack_driver_params.yaml >> .gitignore
+
 # Build the ROS 2 workspace
 colcon build --symlink-install
 source /ros2_ws/install/setup.bash
