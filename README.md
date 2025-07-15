@@ -26,7 +26,17 @@ Setup from `git@github.com:clausqr/ros2-vscode-container-dev.git` template.
    ```bash
    ./rr run
    ```
-4. **SSH Access**: If SSH access is enabled, you can connect to the container to start coding using:
+
+4. ** Setup** everything in the container:
+   
+   ```bash
+   cd /ros2_ws
+   bash init.bash
+   ``` 
+
+From here on follow the instructions in the `README.md` file of the `mocap4ros2_optitrack` package.
+
+5. **SSH Access**: If SSH access is enabled, you can connect to the container to start coding using:
    
    ```bash
    ssh -p 20022 user@localhost
